@@ -83,17 +83,17 @@ void battery_request() {
 /*
  * Fire the find my phone alarm
  */
-void fire_alarm() {
-
-  DictionaryIterator *iter;
-  app_message_outbox_begin(&iter);
-  if (!iter)
-	return;
-
-  dict_write_uint8(iter, UTILITIES_FIND_MY_PHONE_CHANGE_KEY, alarm_value);
-  dict_write_end(iter);
-  app_message_outbox_send();
-}
+// void fire_alarm() {
+// 
+//   DictionaryIterator *iter;
+//   app_message_outbox_begin(&iter);
+//   if (!iter)
+// 	return;
+// 
+//   dict_write_uint8(iter, UTILITIES_FIND_MY_PHONE_CHANGE_KEY, alarm_value);
+//   dict_write_end(iter);
+//   app_message_outbox_send();
+// }
 
 /*
  * Get the calendar running

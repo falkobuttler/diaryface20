@@ -28,7 +28,7 @@
 #include "pebble.h"
 	
 //#define INVERSE
-#define ATTACK_ALARM
+//#define ATTACK_ALARM
 
 #define RECONNECT_KEY 0
 #define REQUEST_CALENDAR_KEY 1
